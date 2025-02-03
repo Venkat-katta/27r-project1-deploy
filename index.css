@@ -39,16 +39,35 @@ img{
    font-size: medium;
    position: sticky;
  }
+ #div11{
+    display: flex;
+    position: relative;
+   flex-wrap: wrap;
+   text-align: center;
+  justify-content: center;
+   background-color: rgb(16, 237, 241);
+    height: 120px;
+    width: 840px;
+    margin-top: 180px;
+    margin-left: 220px;
+    gap: 20px;
+ }
+ #div11 #main{
+   
+    margin-top: 40px;
+    gap: 50px;
+ }
  #div12{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 400px;
+    margin-top: 100px;
     width: 1240px;
+    margin-top: px;
     background-color: rgb(208, 233, 237);
     position: sticky;
-    top: 0;
-    z-index: 1240;
+    top: 0.5px;
+    z-index: 1;
  }
  #div12 a{
    text-decoration: none;
@@ -84,10 +103,10 @@ to {
     border: 2px,solid;
     width: 1236px;
     height: 580px;
-    margin-top: 00px;
+    margin-top: 7px;
     background-color: rgba(147, 11, 54, 0.491);
     border-color: transparent;
-    animation-duration: 5s;
+    
     
 
  }
@@ -98,8 +117,8 @@ to {
     width: 22vw;
     height: 80vh;
     margin-top: 115px;
-    animation: zoomIn 2s ease-in ;
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+     animation: zoomIn 3s ease-in ;
+     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s ease, box-shadow 0.3s ease;
  }
  #div2 .img1:hover{
@@ -114,7 +133,7 @@ justify-content: space-between;
 width: 22vw;
 height: 80vh;
 margin-top: 70px;
-animation: zoomIn 2s ease-in ;
+animation: zoomIn 3s ease-in ;
 box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
 transition: transform 0.4s ease, box-shadow 0.3s ease;
  }
@@ -190,6 +209,7 @@ to {
     width: 1236px;
     height: 530px;
     border-color: transparent;
+    margin-top: 7px;
     background-color: rgb(2, 64, 2);
     gap: 10px;
     animation-duration: 6s;
@@ -269,6 +289,7 @@ box-shadow: 8px 16px 24px rgba(0, 0, 0, 0.2);
    margin-top: -85px;
 }
 #img{
+    margin-top: 7px;
     flex-wrap: wrap;
     height: 400px;
 }
@@ -279,6 +300,7 @@ box-shadow: 8px 16px 24px rgba(0, 0, 0, 0.2);
     border: 2px,solid;
     height: 520px;
     width: 1236px;
+    margin-top: 7px;
     background-color: rgba(220, 133, 146, 0.877);
     border-color: transparent;
 }
@@ -403,6 +425,7 @@ color: maroon;
     border: 2px,solid;
     height: 520px;
     width: 1236px;
+    margin-top: 7px;
     background-image: url(./important-opportunity_15_9495.jpeg);
     background-size: cover;
     border-color: transparent;
@@ -444,8 +467,9 @@ color: maroon;
     justify-content: space-around;
     flex-wrap: wrap;
     border: 2px,solid;
-    width: 1235px;
+    width: 1232px;
     height: 520px;
+    margin-top: 7px;
     background-color: rgb(3, 39, 3);
     border-color: transparent;
 }
@@ -469,7 +493,7 @@ color: maroon;
     display: grid;
     flex-wrap: wrap;
     border: 2px,solid;
-    height: 550px;
+    height: 450px;
     width: 450px;
     margin-top: 40px;
     background-color: rgb(177, 63, 101);
@@ -481,12 +505,12 @@ color: maroon;
 display: grid;
 justify-content: space-around;
     font-size: medium;
-   margin-top: 40px;
+   margin-top: 10px;
 }
 #div6 .div61 h2{
     display: grid;
     justify-content: space-around;
-    margin-top: -120px;
+    margin-top: -150px;
     margin-left: -145px;
     color: rgba(143, 24, 24, 0.808);
 }
@@ -494,15 +518,15 @@ justify-content: space-around;
    display: flex;
    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 40px;
-    height: 20px;
-    margin-top: -220px;
+    gap: 20px;
+    height: 10px;
+    margin-top: -215px;
   }
   .div61 .fm #Subject{
     margin-left: -45px;
   }
   .div61 .fm #Message{
-   height: 120px;
+   height: 80px;
    width: 300px;
  
   }
@@ -523,7 +547,7 @@ justify-content: space-around;
     border: 2px,solid;
     width: 1235px;
     height: 385px;
-    margin-top: 72px;
+    margin-top: 7px;
     background-color: rgb(241, 106, 106);
     border-color: transparent;
     
