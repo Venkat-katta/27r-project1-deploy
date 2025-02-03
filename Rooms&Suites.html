@@ -165,6 +165,174 @@
         transform: scale(1.05);
         box-shadow: 8px 16px 24px rgba(0, 0, 0, 0.2);
      }
+     #div3{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border: 2px,solid;
+        width: 1232px;
+        height: 1000px;
+        background-color: rgb(20, 49, 5);
+        border-color: transparent;
+    }
+    #div3 p{
+        font-style: oblique;
+        color: aliceblue;
+    }
+    #div3 h1{
+        font-style: oblique;
+        color: goldenrod;
+    }
+   
+    #div3 #div31{
+        display: grid;
+        padding: 20px;
+        height: 100px;
+        margin-top: 100px;
+        grid-template-areas: 
+        "area1 area2 area3"
+        "area4 area5 area6"
+        "area7 area8 area9";
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 30px;
+  } 
+   @keyframes zoomIn {
+from {
+    transform: scale(0.9);
+    opacity: 0;
+}
+to {
+    transform: scale(1);
+    opacity: 1;
+}
+    }
+ 
+    #div31 .iteam1{
+        display: grid;
+    grid-area: area1;
+    height: 300px;
+    width: 300px;
+    background-image: url(./50.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 4.5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  }
+  #div31 .iteam1:hover{
+    transform: scale(1.05);
+  }
+   #div31 .iteam2{
+      grid-area: area2;
+     height: 300px;
+    width: 300px;
+    background-image: url(./51.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 4.5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+}
+#div31 .iteam2:hover{
+    transform: scale(1.05);
+}
+   #div31 .iteam3{
+       grid-area: area3;
+      height: 300px;
+    width: 300px;
+    background-image: url(./52.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 4.5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+}
+#div31 .iteam3:hover{
+    transform: scale(1.05);
+}
+   #div31 .iteam4{
+       grid-area: area4; 
+    height: 300px;
+    width: 300px;
+    background-image: url(./53.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 7.5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+    }
+    #div31 .iteam4:hover{
+        transform: scale(1.05);
+    }
+   #div31 .iteam5{
+       grid-area: area5;
+       height: 300px;
+    width: 300px;
+    background-image: url(./54.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 7.5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+    }
+    #div31 .iteam5:hover{
+        transform: scale(1.05);
+    }
+   #div31 .iteam6{
+       grid-area: area6;
+       height: 300px;
+    width: 300px;
+    background-image: url(./55.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    animation: zoomIn 7.5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+    }
+    #div31 .iteam6:hover{
+        transform: scale(1.05);
+    }
+   #div31 .iteam7{
+        grid-area: area7;
+        height: 300px;
+    width: 300px;
+    background-image: url(./56.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 10s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+    }
+    #div31 .iteam7:hover{
+        transform: scale(1.05);
+    }
+   #div31 .iteam8{
+        grid-area: area8;
+        height: 300px;
+    width: 300px;
+    background-image: url(./50.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 10s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+    }
+    #div31 .iteam8:hover{
+        transform: scale(1.05);
+    }
+    #div31 .iteam9{
+        grid-area: area9;
+        height: 300px;
+    width: 300px;
+    background-image: url(./57\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomIn 10s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
+    }
+    #div31 .iteam9:hover{
+        transform: scale(1.05);
+    }
      #div4{
         display: flex;
         justify-content: space-evenly;
@@ -217,6 +385,7 @@
    width: 200px;
    height: 150px;
    box-shadow: 0 8px 16px;
+  
   }
  #div41 .area1:hover{
     transform: scale(1.05);
@@ -288,136 +457,8 @@
         transform: scale(1.05);
         color: rgb(0, 255, 136);
     }
-    #div3{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        border: 2px,solid;
-        width: 1232px;
-        height: 1000px;
-        background-color: rgb(20, 49, 5);
-        border-color: transparent;
-    }
-    #div3 p{
-        font-style: oblique;
-        color: aliceblue;
-    }
-    #div3 h1{
-        font-style: oblique;
-        color: goldenrod;
-    }
-    #div3 #div31{
-        display: grid;
-        padding: 20px;
-        height: 100px;
-        margin-top: 100px;
-        grid-template-areas: 
-        "area1 area2 area3"
-        "area4 area5 area6"
-        "area7 area8 area9";
-        grid-template-columns: 1fr 1fr 1fr ;
-        gap: 30px;
-  }
-    #div31 .iteam1{
-        display: grid;
-    grid-area: area1;
-    height: 300px;
-    width: 300px;
-    background-image: url(./50.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  #div31 .iteam1:hover{
-    transform: scale(1.05);
-  }
-   #div31 .iteam2{
-      grid-area: area2;
-     height: 300px;
-    width: 300px;
-    background-image: url(./51.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-#div31 .iteam2:hover{
-    transform: scale(1.05);
-}
-   #div31 .iteam3{
-       grid-area: area3;
-      height: 300px;
-    width: 300px;
-    background-image: url(./52.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-#div31 .iteam3:hover{
-    transform: scale(1.05);
-}
-   #div31 .iteam4{
-       grid-area: area4; 
-    height: 300px;
-    width: 300px;
-    background-image: url(./53.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-    #div31 .iteam4:hover{
-        transform: scale(1.05);
-    }
-   #div31 .iteam5{
-       grid-area: area5;
-       height: 300px;
-    width: 300px;
-    background-image: url(./54.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-    #div31 .iteam5:hover{
-        transform: scale(1.05);
-    }
-   #div31 .iteam6{
-       grid-area: area6;
-       height: 300px;
-    width: 300px;
-    background-image: url(./55.jpg);
-    background-repeat: no-repeat;
-    background-size: contain; 
-    }
-    #div31 .iteam6:hover{
-        transform: scale(1.05);
-    }
-   #div31 .iteam7{
-        grid-area: area7;
-        height: 300px;
-    width: 300px;
-    background-image: url(./56.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-    #div31 .iteam7:hover{
-        transform: scale(1.05);
-    }
-   #div31 .iteam8{
-        grid-area: area8;
-        height: 300px;
-    width: 300px;
-    background-image: url(./50.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-    #div31 .iteam8:hover{
-        transform: scale(1.05);
-    }
-    #div31 .iteam9{
-        grid-area: area9;
-        height: 300px;
-    width: 300px;
-    background-image: url(./57\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    }
-    #div31 .iteam9:hover{
-        transform: scale(1.05);
-    }
+  
+   
     #div7{
         display: flex;
         justify-content: space-around;
@@ -428,6 +469,9 @@
         margin-top: px;
         background-color: rgb(121, 84, 10);
         border-color: transparent;
+        animation: zoomIn 5s ease-in ;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+  
         
       }
      #div7 h2{
